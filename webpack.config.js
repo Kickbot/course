@@ -25,15 +25,8 @@ const isLoaders = () => {
       }
     }
   ]
-
-  // if(isDev) {
-  //   loaders.push('eslint-loader')
-  // }
   return loaders
 }
-
-console.log('PROD', isProd);
-console.log('DEV', isDev);
 
 module.exports = {
   context: path.resolve(__dirname, 'src'),
